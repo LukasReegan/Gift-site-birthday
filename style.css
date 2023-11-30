@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Happy Monkey, cursive;
+    background: linear-gradient(#00c3d1, #B592A0);
+    color: #FaFFD8;
+    text-shadow: 0px 0px 1px black;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+#stella-img {
+    width: 250px;
+    border: 10px solid #568259;
+    border-radius: 250px;
+}
+
+#bday-age, #bday-date {
+    padding: 5px 10px;
+    background-color: #568259;
+    border-radius: 5px;
+    margin: 0;
+}
+
+#bday-date {
+    margin-top: 10px;
+}
+
+#bday-age {
+    margin-top: 30px;
+}
+
+.gift-section {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.present {
+    width: 600px;
+    height: 400px;
+    background-image: url(/Gift_card/images/present.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 10px solid #568259;
+    border-radius: 10px;
+}
+    
+
+#hover-gif-happy:hover {
+    background-image: url(/Gift_card/images/happy.gif);
+    background-size: cover;
+}
+
+#hover-gif-hot:hover {
+    background-image: url(/Gift_card/images/hot.gif);
+    background-size: cover;
+}
+
+#hover-gif-genius:hover {
+    background-image: url(/Gift_card/images/genius.gif);
+    background-size: cover;
+}
+
+#hover-gif-chuck:hover {
+    background-image: url(/Gift_card/images/chuck.gif);
+    background-size: cover;
+}
+
+#hover-gif-cheers {
+    height: 350px;
+    background-size: cover;
+}
+
+#hover-gif-cheers:hover {
+    background-image: url(/Gift_card/images/cheers.gif);
+    background-size: cover;
+}
+
+#footer {
+    text-align: center;
+    font-style: italic;
+    padding: 20px 0 40px 0;
+    
+}
+
+p{
+    margin: 0;
+}
+
+a {
+    color: inherit;
+}
